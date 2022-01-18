@@ -2,7 +2,9 @@
 
 1.Learn about binary, decimal and hexadecimal numbers.
 
-			Done.
+```javascript
+Done.
+```
 
 
 2. Translate the year you were born to binary, decimal and hexadecimal (2001)

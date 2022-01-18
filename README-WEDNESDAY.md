@@ -1,25 +1,22 @@
 # Week Challenges (Wednesday)
 
 1.Learn about binary, decimal and hexadecimal numbers.
-
 ```javascript
 Done.
 ```
-
-
-2. Translate the year you were born to binary, decimal and hexadecimal (2001)
-
-		1.Binary: 11111010001
-		2.Hexadecimal:7D1
-		3.Decimal:2001
-
-3. Translate 51966 into hexadecimal and binary
+2.Translate the year you were born to binary, decimal and hexadecimal (2001).
+````
+1.Binary: 11111010001
+2.Hexadecimal:7D1
+3.Decimal:2001
+````
+3.Translate 51966 into hexadecimal and binary
 
       	1. Binary: 1100101011111110
       	2. Hexadecimal: CAFE
 
 
-4. Use the MIPS assembler.
+4.Use the MIPS assembler.
   		
 		 Done.
 

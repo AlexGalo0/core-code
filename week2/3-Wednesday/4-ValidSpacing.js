@@ -8,19 +8,14 @@ function validSpacing(s) {
     //Verificar si esta al final
     if(s.charAt(s.length-1)==" ") return false ; 
  
-    for(let i=0 ; i<=s.length;i++) {
-
+    for(let i=0 ; i<=s.length-1;i++) {
         //Verificar si no hay
-        if(s.charAt(i)==" "){
-            return false ;       //REFACTORIZAR
-        }  else {
-           return  true ; 
-        }
+        if(s.charAt(i)!==" ") return true ; 
     }
     //Chequear si hay 2 espacios seguidos, utilizando RegEx.
     const regex= /\s\s+/gm ; 
-    if( regex.test(s)) return false ; 
-  }
+    if(regex.test(s)) return false ; 
 
- console.log(  validSpacing("odeK  IE") ) ;
-//    return (s.charAt(i)!==" ") ; 
+
+  }
+validSpacing("Hola") ; 

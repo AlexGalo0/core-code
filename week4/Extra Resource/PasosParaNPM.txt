@@ -1,0 +1,24 @@
+1) npm init --y (El --y nos permite que a todas las preguntas respondamos yes)
+2) npm install _Package_  --save-dev
+    2.1) Existen 2 clases de banderas. 
+        1)--save-dev: Sirve para crear que en las dependencias (package.json) el "historial" que vamos a guardar el paquete para Development Purposes.
+        2)--save : save the package required for the app to run.
+
+3) PASOS EXCLUSIVAMENTE PARA TYPESCRIPT        
+    1) npx tsc --init :Genera la configuracion por defecto de Typescript. (tsconfig.json)
+
+
+4) Hacer import del paquete dentro del proyecto.
+    import {prompt} = require('enquirer'); 
+    El como hacer el import suele estar detallado en la documentacion del paquete.
+
+
+El package.json maneja las dependencias
+	Dentro del package.json, en "scripts" podemos crear nuestro propio script.
+	Por ejemplo si solo quisieramos escribir "npm start" para ejecutar "node dist/app.js" escribiriamos
+	"scripts" {
+	 "start": "node dist/app.js"
+	}
+	
+Correr el Watcher: npx tsc - -w
+   

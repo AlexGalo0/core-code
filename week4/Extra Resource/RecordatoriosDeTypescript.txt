@@ -1,0 +1,6 @@
+1) Saber que TypeScript como lo dice su nombre, es mucho de tipos, es necesario estar pendiente de los valores de retorno y de argumentos que podemos utilizar.
+2)Usar el Watcher: npx tsc --w (doble guion, - -)
+3) Recordar configurar el tsconfig.json para el src y el dist.
+4)Para correr el typescript según documentacion es npx tsc archivo.ts
+	npx es un "comando que corre comandos"
+	npm solo corre los comandos que estan en el package.json

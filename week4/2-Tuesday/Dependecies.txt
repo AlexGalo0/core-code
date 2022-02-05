@@ -1,0 +1,7 @@
+Dependencias : Produccion
+
+Dev Dependencies: Desarrollo, o test
+
+package-log : versiones de las dependencias.
+
+Se llama dist porque es para distribution.

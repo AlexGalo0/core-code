@@ -1,25 +1,36 @@
 function validParentheses(parens) {
-   
+   var longitud = parens.length ; 
+  
     //Recorrer Stringqq
-    var cantidadPA =0
-    var cantidadPC = 0 ;  //Cantidad Parentesis Abierto y Cantidad Parentesis Cerrado
+    var parentesisIncompletos=0 ; 
    
-     if(parens.charAt(0)===")" || parens.charAt(parens.length -1 )=== "(") {
-       return false ; 
-     }
+     if(parens.charAt(0)===")" || parens.charAt(parens.length -1 )=== "(") return false ; 
    
-     for(parentesis in parens) {
-       if(parens.charAt(parentesis) ==="(") {
-        cantidadPA+=1 ; 
+     for(let i = 0 ; i<=longitud;i++) {
+
+       if(parens.charAt(i) ==="(") {
+        parentesisIncompletos+=1 ; 
+        console.log("Parentesis ( se hallo") ; 
        } else {
-         cantidadPC+=1 ; 
+        if(parens.charAt(i) ===")") {
+          parentesisIncompletos-=1 ; 
+          console.log("Parentesis ) se hallo") ; 
+         }
        }
-     }
+       }
+      
+       console.log(parentesisIncompletos) ; 
 
-     
-     return  cantidadPA==cantidadPC 
-   
-   
-   }
+       if(parentesisIncompletos==0) {
+        return true ; 
+       } else {
+         return false ; 
+       }
 
-   validParentheses("(())")
+       
+
+   
+  }
+   
+
+   validParentheses("())(()")

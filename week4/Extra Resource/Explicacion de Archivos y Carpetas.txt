@@ -1,0 +1,19 @@
+1)Package.json: Archivo de configuracion que se encarga de NUESTRA configuración de NPM.
+	       Es lo que configuramos en el npm init,nombre, version etc
+
+2).gitIgnore:Carpetas no deseables a subir
+	/node_modules.
+
+3)Dependencies : Las que se utilizan en producción.
+   Dev Dependencies: Las que se utilizan en desarrollo.
+
+
+3)node_modules: Cada paquete de terceros se instalaran en node modules. 
+
+4) Digamos que solo tenemos los 2 archivos de package.json y package-lock.json y queremos que instalen todo
+	solo tenemos que hacer "npm install" y leera todas las dependencias.
+
+5) La carpeta node_modules a mi no me debe de interesar.
+
+6)outDir: Donde se ira sacando todo, es el output directory, distribution. Suele ser la carpeta llamada "Dist"
+7) src: Donde esta el codigo fuente de nuestra app.

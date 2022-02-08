@@ -11,7 +11,11 @@
 const a = [1,2,3,4] ; 
 a.length=2 ; 
 
-console.log(a[3] ) 
+function alex() {
+    console.log("object");
+}
+alex().apply()
+
 
 /*After the execution of the code, which of the statements will be true?
     1) The value of a[2] is 3

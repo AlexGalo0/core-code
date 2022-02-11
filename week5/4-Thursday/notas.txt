@@ -1,0 +1,2 @@
+Si quiero exluir arhcivos en el tsconfig 
+"excluce" : ["src/E*"]

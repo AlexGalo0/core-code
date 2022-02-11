@@ -7,9 +7,11 @@ function toCamelCase(str){
     const removeDash = /-|_/g
     camelCaseStr= camelCaseStr.replace(removeDash,"") ; 
     
-    if(str[0]!==str[0].toUpperCase()) { //Si el primer char era minuscula   
-       return camelCaseStr.charAt(0).toLowerCase() + camelCaseStr.slice(1)  ; 
-    } else {
-        return camelCaseStr ; 
-    }
+    if(str[0]!==str[0].toUpperCase())   return camelCaseStr.charAt(0).toLowerCase() + camelCaseStr.slice(1)  ; 
+    return camelCaseStr ; 
+     
+        
+    
 }
+
+toCamelCase("hola-que-tal")

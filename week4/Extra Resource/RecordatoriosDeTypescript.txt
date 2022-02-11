@@ -4,3 +4,4 @@
 4)Para correr el typescript según documentacion es npx tsc archivo.ts
 	npx es un "comando que corre comandos"
 	npm solo corre los comandos que estan en el package.json
+Al final seria, npm start (El start depende del script que hayamos definido en el package.json

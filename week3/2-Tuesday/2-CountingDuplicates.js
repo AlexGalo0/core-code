@@ -1,3 +1,5 @@
+/* https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1 */
+
 function duplicateCount(text) {
     let obj = {} //Creamos un objeto que guardara cuantos repetidos hay
     let count=0 ; 

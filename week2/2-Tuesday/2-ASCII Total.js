@@ -1,3 +1,8 @@
+/* 
+https://www.codewars.com/kata/572b6b2772a38bc1e700007a
+*/
+
+
 function uniTotal (string) {
     var valueOfChar ; 
      var sumOfChars =0 ; 

@@ -1,3 +1,7 @@
+/* 
+https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
+*/
+
 function fakeBin(x){
   
     var arreglo = Array.from(x) ; 

@@ -19,8 +19,49 @@
 In this section , we will see how to use all of this concepts applied in *Typescript.*
 
 ### ¿How to create a *class* in Typescript*?
-    ```typescript```
+    ```typescript
     class Nombre_de_Clase {
      //code   
     }
-    ````typescript```
+    ```
+### How to create an *object* in Typescript? 
+    ```typescript
+    //After creating a class named Animal
+    let dog = new Animal()
+    ```
+### How to use *encapsulation* in Typescript? 
+    ```typescript
+    class Account {
+        accountNumber: num , 
+        private balance: num
+        /* Since we declare balance private, isn´t accessible by other classes, we're encapsulating balance. */
+    }
+    ```
+### How to use *access modifiers* in Typescript
+The previous example of encapsulation uses access modifiers to change the behavior of the class, with the keyword
+_private_
+There are n keywords that help us modify the access to values in a class. 
+1. public : It means that the attribute is accesible and modifiable by other classes.
+2. private: It means that the attribute isn´t accesible by other classes.
+3. protected: It means that the attribute is only accesible by the class that has the attribute (as in private) but also is accesible in the child classes that came from the parent class.
+### How to use a Interface in Typescript.
+```typescript
+    interface Person() {
+        name : string,
+        age: number,
+        sex: string,
+        alive?: boolean
+    }
+```
+### Instances
+```typescript
+    class Animal() {
+        name:string,
+        age:number
+    }
+    let dog = new Animal("coco",25)
+```
+
+
+
+

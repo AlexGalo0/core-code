@@ -17,10 +17,5 @@ function validParentheses(parens) {
       }
       }
      return(parentesisIncompletos==0)
-      
-   
-      
-
-
  }
    validParentheses("())(()")

@@ -53,7 +53,7 @@ There are n keywords that help us modify the access to values in a class.
         alive?: boolean
     }
 ```
-### Instances
+### How to use Instances in Typescript.
 ```typescript
     class Animal() {
         name:string,

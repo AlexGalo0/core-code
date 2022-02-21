@@ -1,0 +1,31 @@
+interface IceCream{
+    flavor:string,
+    scoops:number,
+    instructions?:string
+  }
+  
+  interface Sundae extends IceCream {
+    sauce: 'chocolate'|'caramel'|'strawberry',
+    nuts?:boolean
+    whippecCream?:boolean
+    instructions?:string
+  }
+  
+  
+  
+   var iceCream : Sundae = {
+    flavor:'vanilla',
+    scoops:2 ,
+    sauce: 'caramel',
+    nuts: true
+  }
+  
+  function tooManyScoops(dessert: Sundae) {
+     if (dessert.scoops >= 4) {
+        return dessert.scoops + ' is too many scoops!';
+     } else {
+        return 'Your order will be ready soon!';
+     }
+  }
+
+  Me quede en el unit 6 of 8 

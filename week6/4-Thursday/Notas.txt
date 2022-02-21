@@ -1,0 +1,11 @@
+En la carpeta Models estaran als clases
+
+El new llama al constructor.
+
+
+Si descargo algo por NPM, queda completamente ahi? 
+
+
+Object is Callable?
+
+Interfaz: Estandarizar comportamientos

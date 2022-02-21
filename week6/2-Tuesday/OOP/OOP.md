@@ -19,24 +19,24 @@
 In this section , we will see how to use all of this concepts applied in *Typescript.*
 
 ### ¿How to create a *class* in Typescript*?
-    ```typescript
+```typescript
     class Nombre_de_Clase {
      //code   
     }
-    ```
+```
 ### How to create an *object* in Typescript? 
-    ```typescript
+```typescript
     //After creating a class named Animal
     let dog = new Animal()
-    ```
+```
 ### How to use *encapsulation* in Typescript? 
-    ```typescript
+```typescript
     class Account {
         accountNumber: num , 
         private balance: num
         /* Since we declare balance private, isn´t accessible by other classes, we're encapsulating balance. */
     }
-    ```
+```
 ### How to use *access modifiers* in Typescript
 The previous example of encapsulation uses access modifiers to change the behavior of the class, with the keyword
 _private_

@@ -18,3 +18,11 @@
 
 ### Week 5
 [Se adjuntan los ejercicios de la semana 5.](week5)
+
+### Week 6 
+[Se adjuntan los ejercicios de la semana 6.](week6)
+
+### Week 7
+[Se adjuntan los ejercicios de la semana 6.](week7)
+
+

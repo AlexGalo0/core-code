@@ -23,9 +23,9 @@
 [Se adjuntan los ejercicios de la semana 6.](week6)
 
 ### Week 7
-[Se adjuntan los ejercicios de la semana 6.](week7)
+[Se adjuntan los ejercicios de la semana 7.](week7)
 
 ### Week 8 
-[Se adjuntan los ejercicios de la semana 7.](week8)
+[Se adjuntan los ejercicios de la semana 8.](week8)
 
 

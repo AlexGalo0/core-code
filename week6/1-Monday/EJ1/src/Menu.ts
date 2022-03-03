@@ -1,4 +1,4 @@
-import { SelectChoice, Choice } from "./Input";
+import { SelectChoice, Choice, UserOption, Input } from "./Input";
 import { MenuElement } from "./MenuElement";
 
 export class Menu {
@@ -91,7 +91,30 @@ export class Menu {
   }
 
     async showMainMenu() {
-        
+        let opcion= -1 
+        let input : UserOption ; 
+
+        while(opcion!==6) {
+          input= await Input.getSelect('Select a menu option',this.mainMenu) ; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
 
 
 

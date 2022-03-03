@@ -14,6 +14,6 @@ export class MenuElement {
   }
 
   printOption() {
-    console.log(`${this.name}...........${this.price}`);
+    return `${this.name}...........${this.price}`;
   }
 }

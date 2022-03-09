@@ -1,0 +1,7 @@
+1)Carpeta sin espacios.
+2)npx create-react-app .
+
+Que significan los comandos?
+
+npm start : iniciar nuestro ambiente de desarrollo
+npm run build : prepara nuestro proyecto para produccion .

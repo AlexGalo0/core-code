@@ -16,10 +16,12 @@ Son los datos que queremos desplegar en nuestros componentes, al cambiar los dat
 Es el responsable de decir como la UI debe lucir.
 
 ## Que es Hooks ?
-
+Es la forma de gestionar estado en los componentes funcionales.
 ## Que es Destructing?
 
 ## Que es Props?
+Propiedades. Es la forma que tiene React de pasar parametros entre componentes.
+
 
 ##
 export default function TodoList({todos}) {

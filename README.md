@@ -31,4 +31,7 @@
 ### Week 9
 [Se adjuntan los ejercicios de la semana 9.](week9)
 
+## Week 10
+[Se Adjuntan los ejercicios de la semana 10.](week10)
+
 

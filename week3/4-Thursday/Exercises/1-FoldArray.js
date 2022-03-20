@@ -1,4 +1,11 @@
-/* https://www.codewars.com/kata/57ea70aa5500adfe8a000110 */
+/* https://www.codewars.com/kata/57ea70aa5500adfe8a000110   
+    1-
+
+
+
+
+*/
+
 
 function foldArray(array,runs) {
     if(runs<1) return array ;
@@ -15,3 +22,5 @@ function foldArray(array,runs) {
     }
     return folded ; 
 }
+
+foldArray([1,2,3,4],1)

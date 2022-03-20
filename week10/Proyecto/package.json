@@ -1,25 +1,20 @@
 {
-  "name": "react-todos-node",
+  "name": "proyecto",
   "version": "1.0.0",
-  "description": "todo app developed in node and react, using express as the router",
-  "main": "server.js",
+  "description": "todo project with node and sql",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devstart" : "nodemon ./src/server.js "
+    "start": "nodemon ./src"
   },
-  "keywords": [
-    "express",
-    "todos",
-    "node"
-  ],
-  "author": "AlexGalo0",
+  "author": "Alex Galo",
   "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.3"
-  },
   "dependencies": {
-    "nodemon": "^2.0.15",
+    "express": "^4.17.3",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

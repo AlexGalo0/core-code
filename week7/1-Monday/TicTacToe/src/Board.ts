@@ -10,9 +10,6 @@ export class Board {
 
     constructor( private  rows:number=3,private  columns:number=3) {}
 
-    
-
-
     initialiceMatrix() {
 
     }

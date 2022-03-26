@@ -2,8 +2,6 @@
 
 ![Core Code Gif](../gifCC.webp)
 
-### Lunes 10 de Enero
-[Se adjuntan los ejercicios del lunes.](1-Monday)
 
 ### Martes 11 de Enero
 [Se adjuntan los ejercicios del martes.](2-Tuesday)

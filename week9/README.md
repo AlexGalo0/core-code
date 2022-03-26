@@ -1,15 +1,15 @@
-# Semana 6 de Bootcamp Core Code.
+# Semana 9 de Bootcamp Core Code.
 
 ![Core Code Gif](../gifCC.webp)
 
-### Lunes 15 de Febrero
+### Lunes 7 de Marzo
 [Se adjuntan los ejercicios del lunes.](1-Monday)
 
-### Martes 16 de Febrero
+### Martes 8 de Marzo
 [Se adjuntan los ejercicios del martes.](2-Tuesday)
 
-### Miercoles 17 de Febrero
+### Miercoles 9 de Marzo
 [Se adjuntan los ejercicios del miercoles.](3-Wednesday)
 
-### Jueves 18 de Febrero
+### Jueves 10 de Marzo
 [Se adjuntan los ejercicios del jueves.](4-Thursday)

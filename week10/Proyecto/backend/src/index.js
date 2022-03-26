@@ -10,8 +10,8 @@ App.use(express.json()) //Todo lo que venga del cliente pasara por aca,Y a todo 
 App.use(express.urlencoded({extended:false}))
 App.use(RequestHandler)
 
-App.listen(3000,()=>{
-  console.log("Estoy escuchando ");
+App.listen(3003,()=>{
+  console.log("Estoy escuchando");
   initializeDB().then(()=>{
       console.log(`Database is Ready`);
   })

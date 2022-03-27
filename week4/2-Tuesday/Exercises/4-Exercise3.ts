@@ -1,3 +1,4 @@
+/* https://typescript-exercises.github.io/#exercise=3&file=%2Findex.ts */
 interface User {
     name: string;
     age: number;
@@ -10,9 +11,9 @@ interface Admin {
     role: string;
 }
 
-export type Person = User | Admin
+export type Person = User | Admin;
 
-export const persons: Person[] /* <- Person[] */ = [
+export const persons: Person[] = [
     {
         name: 'Max Mustermann',
         age: 25,
@@ -35,8 +36,14 @@ export const persons: Person[] /* <- Person[] */ = [
     }
 ];
 
-export function logPerson(user: Person) {
-    console.log(` - ${user.name}, ${user.age}`);
+export function logPerson(person: Person) {
+    let additionalInformation: string;
+    if ("role" in person) {
+        additionalInformation = person.role;
+    } else {
+        additionalInformation = person.occupation;
+    }
+    console.log(` - ${person.name}, ${person.age}, ${additionalInformation}`);
 }
 
 persons.forEach(logPerson);

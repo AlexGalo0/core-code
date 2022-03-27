@@ -2,23 +2,37 @@ import React, { useState } from "react";
 import TodoForm from "./TodoForm";
 import Todo from "./Todo";
 import { useEffect } from "react";
+import axios from "axios"
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
 
+  const getTodos = () =>{
+    axios.get('http://localhost:3003/to-dos') 
+    .then(function (response) {
+      setTodos(response.data)
+    })
+  }
+
   useEffect(() => {
-    console.log(todos);
-  }, [todos]);
+    getTodos()
+  }, []);
 
   const addTodo = (todo) => {
-    if (!todo.text || /^\s*$/.test(todo.text)) {
+    if (!todo.title || /^\s*$/.test(todo.title)) {
       return;
     }
 
-    const newTodos = [todo, ...todos];
+   axios.post('http://localhost:3003/to-dos' , {
+     title:todo.title ,
+     description:todo.description,
+     isDone:todo.isDone
 
-    setTodos(newTodos);
-    console.log(...todos);
+   }).then(function(response){
+      getTodos()
+   }
+
+   )
   };
 
   const showDescription = (todoId) => {
@@ -43,6 +57,7 @@ function TodoList() {
 
   const removeTodo = (id) => {
     const removedArr = [...todos].filter((todo) => todo.id !== id);
+
 
     setTodos(removedArr);
   };

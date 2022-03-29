@@ -33,7 +33,7 @@ RequestHandler.post("/to-dos", async (request, response) => {
       errordetails: error,
     });
   }
-}); //Hacer un cambio en la Base de Datos, crear algo.
+}); //Make a db change
 
 RequestHandler.get("/to-dos", async (request, response,next) => {
   try {
